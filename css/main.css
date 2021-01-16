@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    max-width: 1440px;
+     margin: auto;
+}
+section{
+    margin-bottom: 100px;
+}
+
+nav{
+    padding-top: 45px;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo img{
+    width: 295px;
+
+
+}
+.titlef{
+    color: #363958;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 55px;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a{
+    color: #3C3C3C;
+}
+.checkbtn{
+    float: right;
+    font-size: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.top{
+    background: #FFF9F4;
+    padding: 0 135px;
+    padding-bottom: 128px;
+    height: 715px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem,1fr));
+    grid-gap: 193px;
+    
+}
+.clmn1 img{
+    width: 525.68px;
+}
+.clmn2{
+    margin-top: 100px;
+    
+}
+.clmn2 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+.clmn2 p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.btnmar{
+    margin-top: 35px;
+    
+
+}
+
+.btn{
+    background: linear-gradient(#3D4FF3, #3543BC);
+    color: white;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: none; 
+    cursor: pointer; 
+    display: flex;
+    width: 170px;
+    text-align: center;
+}
+.btn img{
+    width: 24px !important ;
+    height: 24px !important;
+}
+.btn a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:focus{
+    outline: 0;
+}
+
+
+.sec-section{
+    padding: 0 135px;
+    margin-top: 5em; /* Edited */
+}
+.sec-section p{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.card-container {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Edited */
+    grid-gap: 1.5rem;   /* Edited */
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.card { /* Modified */
+	padding: 17px;  /* Edited */
+    height: 550px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.09);  /* Edited */
+    border-radius: 20px;
+    
+}
+.shoepic{
+    background: #F1F1F1;
+    text-align: center;
+    border-radius: 20px;
+    height: 327px;
+    width: 334px;
+}
+.card{
+    width: 370px;
+    height: 550px;
+}
+.card img{
+    width: 311px;
+    height: 311px;
+}
+.card h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #363958;
+    margin-top: 30px;
+
+}
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.cardp{
+    margin: 10px 0;
+}
+.rate-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#rate p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FA804C;
+}
+.card #btn{
+    margin-top: 20px;
+}
+
+.fas {
+	font-size: 50px;
+}
+.third-sec{
+    padding: 0 135px;
+}
+
+.featurgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(21rem,1fr) );;
+}
+.feature img{
+    width: 71px;
+}
+/* .feature li{
+    margin-bottom: 35px;
+} Deleted this style */
+.featurepic img{
+    width: 599px;
+}
+.featcontent{   /* Totaly Modified */
+    display: flex;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+.featp{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #363958;
+    margin-left: 25px;
+    
+}
+.fp{
+    color:#3E3E3E;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 952px){
+    .top{
+        padding: 0 18px;
+    }
+    .sec-section{
+        padding: 0 18px;
+    }
+    .third-sec{
+        padding:  0 18px;
+    }
+    label.logo img{
+        width: 192.75px;
+    }
+}
+@media (max-width: 858px){
+    .card-container {
+
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        top: 100px;
+        height: 100vh;
+        left: 0px;
+        text-align: center;
+        transition: all .5s;
+        display: none;
+        background-color: rgb(209, 209, 209);
+    }
+    nav ul li{
+        display: block;
+        margin-top: 20px;
+        transition: all .5s;
+    }
+    #check:checked ~ ul{
+        display: block;
+    }
+    .hero{
+        grid-gap: 25px;
+    }
+    .clmn2 h1{
+        font-size: 60px;
+    }
+    .clmn1 img{
+        width: 315.51px;
+    }
+    .clmn1 {
+        order: 2;
+      }
+      
+      .clmn2 {
+        order: 1;
+        margin-top: 0;
+      }
+      .featurepic img{
+          width: 292.67px;
+      }
+      .card{
+          width: 312px;
+          margin: auto;
+      }
+      .shoepic{
+        background: #F1F1F1;
+        text-align: center;
+        border-radius: 20px;
+        height: 327px;
+        width: 304px;
+    }
+    .feature{
+        order: 2;
+    }
+    .featcontent {
+        margin-left: 0;
+    }
+    .featurepic{
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+}
